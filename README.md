@@ -10,6 +10,7 @@
 
 # 0.1.0
 
+- Implemented deleting items from the inventory, the unlisted keybind is Ctrl + Shift + Right Click the item
 - Fixed player level and experience were not updating in the character screen
 - Limited characters in a chat message to 255
 - Fixed being able to select the spell or item action by themselves without actually clicking on an item or spell in combat
