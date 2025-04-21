@@ -10,7 +10,7 @@ There are a number of commands to test with (sometimes these break too):
 - `/gold [amount]` adds gold to your inventory
 - `/save` forces your character file to save immediately
 - `/item [level] {item base}` generate a random item with a certain level and an optional item base in your inventory
-- `/consumable {item}` generate a random consumable (stuff like potions)
+- `/consumable [item]` generate a random consumable (stuff like potions)
 - `/levelup {amount}` level your character up once, or optionally a provided amount of times
 - `/respec` reset your stat and spell points
 - `/heal` refills all of your resources to the maximum
