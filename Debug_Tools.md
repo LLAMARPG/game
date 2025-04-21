@@ -3,8 +3,8 @@ All dev/debug access stuff is only available in offline, it won't work in online
 In the settings menu, you can enable Debug option to show a few technical things on the screen, such as:
 - Pathing
 - Current position
-- Force Win/Lose buttons in combat
-- See enemy items in combat
+- Force Win/Lose buttons in combat (the buttons are always visible right now, the Debug option does not toggle this yet).
+- See enemy items in combat (the buttons are always visible right now, the Debug option does not toggle this yet).
 
 There are a number of commands to test with (sometimes these break too):
 - `/gold [amount]` adds gold to your inventory
