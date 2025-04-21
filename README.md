@@ -2,6 +2,7 @@
 
 - Fixed several UI bugs with NPCs.
 - Fixed wrong Steam app id being used for Playtest.
+- Fixed RPC calls being ignored due to mismatching NodePaths, preventing any kind of server/client communication.
 
 # 0.2.0
 
