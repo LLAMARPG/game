@@ -1,3 +1,8 @@
+# 0.6.1.0
+
+- Fixed several UI bugs with NPCs.
+- Fixed wrong Steam app id being used for Playtest.
+
 # 0.2.0
 
 - Fixed being unable to select spell or item actions in combat
