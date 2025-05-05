@@ -9,7 +9,7 @@
 - Fixed Lightning Damage displaying it dealing 0 damage as well as other issues resulting from it.
 - Fixed combat log from last combat displaying on new combat start.
 - Fixed cave darkening getting stuck on screen during relog if you exited the game while in a cave.
-- Fixed leveling up decreasing your skill points instead of increasing them on the skill tree panel.
+- Fixed leveling up decreasing your spell points instead of increasing them on the spell tree panel.
 - Fixed crash when exiting world.
 
 # 0.6.1.0
