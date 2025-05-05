@@ -1,3 +1,17 @@
+# 0.6.2.0
+
+- Implemented enforcement of mana and stamina costs in combat. Tested to a basic degree, but not every scenario was tested.
+- Fixed items not equipping automatically on first load, forcing you to manually re-equip them.
+- Mana total % no longer relative to Stamina total %. They are now mutually exclusive.
+- Warp objects made slightly bigger so that WASD movement can interact with it more reliably.
+- Fixed not being able to delete offline character files.
+- Fixed 'Damage' displaying twice when 0 damage is dealt in an action.
+- Fixed Lightning Damage displaying it dealing 0 damage as well as other issues resulting from it.
+- Fixed combat log from last combat displaying on new combat start.
+- Fixed cave darkening getting stuck on screen during relog if you exited the game while in a cave.
+- Fixed leveling up decreasing your skill points instead of increasing them on the skill tree panel.
+- Fixed crash when exiting world.
+
 # 0.6.1.0
 
 - Fixed several UI bugs with NPCs.
