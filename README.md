@@ -1,3 +1,9 @@
+# 0.6.2.1
+
+- Fixed compile error on exported builds preventing game from loading most of its scripts properly.
+- Prevented player from moving while interacting with an actor (NPC or other player).
+- Added `Open User Folder` to the settings menu next to the Debug toggle for convenience. It will open the folder on your machine where the Godot save and log files are stored.
+
 # 0.6.2.0
 
 - Implemented enforcement of mana and stamina costs in combat. Tested to a basic degree, but not every scenario was tested.
