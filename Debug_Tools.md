@@ -7,7 +7,7 @@ In the settings menu, you can enable Debug option to show a few technical things
 - See enemy items in combat (the buttons are always visible right now, the Debug option does not toggle this yet).
 
 There are a number of commands to test with (sometimes these break too):
-- New `/deplete` sets all your combat resources (except health) to 0
+- **New** `/deplete` sets all your combat resources (except health) to 0
 - `/gold [amount]` adds gold to your inventory
 - `/save` forces your character file to save immediately
 - `/item [level] {item base}` generate a random item with a certain level and an optional item type in your inventory. [See item types here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=464949103#gid=464949103).
