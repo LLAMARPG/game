@@ -11,7 +11,7 @@ There are a number of commands to test with (sometimes these break too):
 - `/gold [amount]` adds gold to your inventory
 - `/save` forces your character file to save immediately
 - `/item [level] {item base}` generate a random item with a certain level and an optional item type in your inventory. [See item types here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=464949103#gid=464949103).
-- `/consumable [item]` generate a random consumable (stuff like potions). [See items here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=273484415#gid=273484415).
+- `/consumable [item]` generate a consumable (stuff like potions). [See items here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=273484415#gid=273484415).
 - `/levelup {amount}` level your character up once, or optionally a provided amount of times
 - `/respec` reset your stat and spell points
 - `/heal` refills all of your resources to the maximum
