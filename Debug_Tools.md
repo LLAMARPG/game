@@ -7,6 +7,7 @@ In the settings menu, you can enable Debug option to show a few technical things
 - See enemy items in combat from the start.
 - **New!** See combat action count text in combat.
 - **New!** See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
+- **New!** Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
 
 There are a number of commands to test with (sometimes these break too):
 - **New!** `/res [resource] [amount]` sets the specified resource to the specified amount 
