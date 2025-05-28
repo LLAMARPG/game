@@ -5,9 +5,12 @@ In the settings menu, you can enable Debug option to show a few technical things
 - Current position
 - Force Win/Lose buttons in combat.
 - See enemy items in combat from the start.
+- **New!** See combat action count text in combat.
+- **New!** See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
 
 There are a number of commands to test with (sometimes these break too):
-- **New** `/deplete` sets all your combat resources (except health) to 0
+- **New!** `/res [resource] [amount]` sets the specified resource to the specified amount 
+- `/deplete` sets all your combat resources (except health) to 0
 - `/gold [amount]` adds gold to your inventory
 - `/save` forces your character file to save immediately
 - `/item [level] {item base}` generate a random item with a certain level and an optional item type in your inventory. [See item types here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=464949103#gid=464949103).
