@@ -1,6 +1,6 @@
 All dev/debug access stuff is only available in offline, it won't work in online.
 
-In the settings menu, you can enable Debug option to show a few technical things on the screen, such as:
+### In the settings menu, you can enable Debug option to show a few technical things on the screen, such as:
 - Pathing
 - Current position
 - Force Win/Lose buttons in combat.
@@ -9,7 +9,7 @@ In the settings menu, you can enable Debug option to show a few technical things
 - **New!** See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
 - **New!** Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
 
-There are a number of commands to test with (sometimes these break too):
+### There are a number of commands to test with (sometimes these break too):
 - **New!** `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below to see the identifiers.
 - **New!** `/res [resource] [amount]` sets the specified resource to the specified amount 
 - `/deplete` sets all your combat resources (except health) to 0
@@ -26,7 +26,7 @@ There are a number of commands to test with (sometimes these break too):
 - `/clear` clears the chat
 - `/crash` forces the server to crash, probably don't have a need to use this though..
 
-Verbose identifiers:
+#### Verbose identifiers:
 
 Many identifiers will have client and server versions of them. In offline, the client and server versions both toggle the same boolean. You only need to use one identifier to toggle the boolean for both client and server. The client identifier is preferred, but there's no harm in using the server identifier. In online, the client identifiers are for the client specifically and the server identifiers are for the dedicated server specifically.
 
