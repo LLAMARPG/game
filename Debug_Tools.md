@@ -32,7 +32,7 @@ These are used by the above `/verbose` command.
 
 Many identifiers will have client and server versions of them. In offline, the client and server versions both toggle the same boolean. You only need to use one identifier to toggle the boolean for both client and server. The client identifier is preferred, but there's no harm in using the server identifier. In online, the client identifiers are for the client specifically and the server identifiers are for the dedicated server specifically.
 
-- `cenc` Client encoding. When you want to see a verbose detail of the client's encoding and decoding.
+- `cenc` Client encoding. When you want to see a verbose detail of the client's encoding and decoding. Extremely noisy (lots of spam and text).
 - `senc` Same as `cenc` but for the server.
 - `cpack` Client packet debugging. When you want to see when the client sends and receives any packet, both in their object and encoded data. This only works in online! Has no effect in offline.
 - `spack` Same as `cpack` but for the server.
