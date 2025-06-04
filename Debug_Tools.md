@@ -28,6 +28,8 @@ All dev/debug access stuff is only available in offline, it won't work in online
 
 #### Verbose identifiers:
 
+These are used by the above `/verbose` command.
+
 Many identifiers will have client and server versions of them. In offline, the client and server versions both toggle the same boolean. You only need to use one identifier to toggle the boolean for both client and server. The client identifier is preferred, but there's no harm in using the server identifier. In online, the client identifiers are for the client specifically and the server identifiers are for the dedicated server specifically.
 
 - `cenc` Client encoding. When you want to see a verbose detail of the client's encoding and decoding.
