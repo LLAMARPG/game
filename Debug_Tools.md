@@ -5,13 +5,15 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - Current position
 - Force Win/Lose buttons in combat.
 - See enemy items in combat from the start.
-- **New!** See combat action count text in combat.
-- **New!** See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
-- **New!** Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
+- See combat action count text in combat.
+- See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
+- Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
+- **New!** Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
 
 ### There are a number of commands to test with (sometimes these break too):
-- **New!** `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below to see the identifiers.
-- **New!** `/res [resource] [amount]` sets the specified resource to the specified amount 
+- **New!** `/freecam` toggles freecam. WASD to pan the camera, mouse wheel to zoom in and out, Shift to speed up the panning or the scrolling, and LMB to teleport the player on both client and server to the clicked position.
+- `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below to see the identifiers.
+- `/res [resource] [amount]` sets the specified resource to the specified amount 
 - `/deplete` sets all your combat resources (except health) to 0
 - `/gold [amount]` adds gold to your inventory
 - `/save` forces your character file to save immediately
