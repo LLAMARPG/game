@@ -11,6 +11,7 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - **New!** Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
 
 ### There are a number of commands to test with (sometimes these break too):
+- **New!** `/refill` refills all flasks in the inventory to max charges.
 - **New!** `/freecam` toggles freecam. WASD to pan the camera, mouse wheel to zoom in and out, Shift to speed up the panning or the scrolling, and LMB to teleport the player on both client and server to the clicked position.
 - `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below to see the identifiers.
 - `/res [resource] [amount]` sets the specified resource to the specified amount 
