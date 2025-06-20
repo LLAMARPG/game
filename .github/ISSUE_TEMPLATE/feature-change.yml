@@ -1,7 +1,7 @@
 name: Feature Change
 description: Request for an existing feature to be changed here!
 labels:
-  - new-feature
+  - feature-change
 body:
   - type: markdown
     attributes:
