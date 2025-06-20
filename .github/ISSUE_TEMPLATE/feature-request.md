@@ -2,7 +2,7 @@
 name: Feature Request
 about: Request a very specific alteration or addition of a feature.
 title: "[Feature] "
-labels: enhancement
+labels: ''
 assignees: ''
 
 ---

@@ -13,4 +13,4 @@ assignees: ''
 **Steps to reproduce the behavior, if necessary:**
 
 
-**Upload or paste the contents of the log file, if necessary, which can be found in the [Godot user folder](https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html#accessing-persistent-user-data-user) `user://llamarpg_game/logs/dev.log`.**
+**If relevant, please provide a copy of the Godot logs. You can find them in in the `Settings Menu -> Technical -> Open User Folder` button. You can either upload the log file as an attachment, paste the text into a text-sharing site like pastebin, or paste it here directly while surrounding the contents in \`\`\` file content here \`\`\`**
