@@ -1,0 +1,75 @@
+name: Bug Report
+description: Template for bug reports
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for reporting a bug! Please be sure the bug you're reporting
+        hasn't already been reported before reporting yours. If there is another
+        issue that exists, whether it is open or closed, for your bug, place any
+        additional information you may be able to provide as a comment to that
+        issue instead.
+
+
+        In your **title**, please briefly describe the problem in one sentence.
+        Just writing "bug with combat" makes organization and finding the issue
+        in the future more challenging.
+  - type: dropdown
+    id: online-offline
+    attributes:
+      label: Online or Offline?
+      description: Were you online or offline when this happened?
+      options:
+        - Not in-game or N/A
+        - Online
+        - Offline
+    validations:
+      required: true
+  - type: textarea
+    id: bug-explanation
+    attributes:
+      label: Explain the bug in detail
+      description: >-
+        Include what you were doing to cause the bug to happen and any other
+        relevant information.
+      placeholder: >-
+        While I was doing this, this happened, and I think it was because this
+        other thing happened, and now I can't do that.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        Please provide the Godot log files along with your bug report so that
+        developers have a better time understanding what happened. You can find
+        them by going to the `Settings Menu` in-game, navigating to the
+        `Technical` tab, clicking the `Open User Folder` button, then opening
+        the `logs` folder. `godot.log` is the latest log file.
+
+
+        For the log file(s), you can either:
+
+        1. Upload the entire text file as an attachment. This is the easiest way
+        for both you and us.
+
+        2. Copy and paste the contents of the file into a text-sharing service
+        like Pastebin and then provide the link in the **Log File Link** input
+        below.
+
+        3. Copy and paste the contents of the file directly into the **Log File
+        Raw Text** area below.
+  - type: input
+    id: log-file-link
+    attributes:
+      label: Log File Link
+      description: For your log files through a text-sharing service like Pastebin
+      placeholder: Link here, but the raw file attachment is preferred.
+  - type: textarea
+    id: log-file-raw-text
+    attributes:
+      label: Log File Raw Text
+      description: Paste the contents of the log file below
+      placeholder: Contents here, but the raw file attachment is preferred.
+      render: Text
