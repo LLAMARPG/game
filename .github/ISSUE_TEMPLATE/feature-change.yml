@@ -1,0 +1,23 @@
+name: Feature Change
+description: Request for an existing feature to be changed here!
+labels:
+  - new-feature
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for providing feedback! Please be sure the feature change
+        you're requesting is not already being requested in another issue,
+        whether the issue is open or closed.
+
+
+        In the **title**, please give a brief one sentence summary of the
+        feature change you would like. Writing "this should be added" is not
+        helpful and confusing to people reading through the titles of issues.
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: What and why?
+      description: What would you like to be changed in the game, and why?
+    validations:
+      required: true
