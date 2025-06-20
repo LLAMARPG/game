@@ -1,8 +1,18 @@
-name: New Feature
-description: Request a new feature to be added to the game here!
+name: Feature Request
+description: Propose for a new idea to be added to the game here!
 labels:
   - new-feature
 body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for providing feedback! Please be sure the feature request you
+        are requesting does not already have an issue created by someone else.
+
+
+        In the **title**, please give a brief one sentence summary of the
+        feature request you would like. Writing "this should be added" is not
+        helpful and confusing to people reading through the titles of issues.
   - type: textarea
     id: feature-description
     attributes:
