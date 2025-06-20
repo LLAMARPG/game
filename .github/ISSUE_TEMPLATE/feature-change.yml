@@ -6,13 +6,12 @@ body:
   - type: markdown
     attributes:
       value: >-
-        Thank you for providing feedback! Please be sure the feature change
-        you're requesting is not already being requested in another issue,
-        whether the issue is open or closed.
+        Thank you for providing feedback! Please be sure the feature change you
+        are proposing does not already have an issue created by someone else.
 
 
         In the **title**, please give a brief one sentence summary of the
-        feature change you would like. Writing "this should be added" is not
+        feature change you would like. Writing "this should be changed" is not
         helpful and confusing to people reading through the titles of issues.
   - type: textarea
     id: feature-description
