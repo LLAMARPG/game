@@ -51,21 +51,12 @@ body:
 
         For the log file(s), you can either:
 
-        1. Upload the entire text file as an attachment. This is the easiest way
-        for both you and us.
+        1. Copy and paste the contents of the file directly into the **Log File
+        Raw Text** area below. This is the preferred method.
 
         2. Copy and paste the contents of the file into a text-sharing service
         like Pastebin and then provide the link in the **Log File Link** input
         below.
-
-        3. Copy and paste the contents of the file directly into the **Log File
-        Raw Text** area below.
-  - type: input
-    id: log-file-link
-    attributes:
-      label: Log File Link
-      description: For your log files through a text-sharing service like Pastebin
-      placeholder: Link here, but the raw file attachment is preferred.
   - type: textarea
     id: log-file-raw-text
     attributes:
@@ -73,3 +64,9 @@ body:
       description: Paste the contents of the log file below
       placeholder: Contents here, but the raw file attachment is preferred.
       render: Text
+  - type: input
+    id: log-file-link
+    attributes:
+      label: Log File Link
+      description: For your log files through a text-sharing service like Pastebin
+      placeholder: Link here, but the raw file content area above is preferred.
