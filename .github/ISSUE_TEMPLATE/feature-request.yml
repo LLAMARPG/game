@@ -1,0 +1,12 @@
+name: New Feature
+description: Request a new feature to be added to the game here!
+labels:
+  - new-feature
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: What and why?
+      description: What would you like to be added to the game, and why?
+    validations:
+      required: true
