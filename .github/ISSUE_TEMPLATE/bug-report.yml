@@ -62,7 +62,7 @@ body:
     attributes:
       label: Log File Raw Text
       description: Paste the contents of the log file below
-      placeholder: Contents here, but the raw file attachment is preferred.
+      placeholder: Text here
       render: Text
   - type: input
     id: log-file-link
