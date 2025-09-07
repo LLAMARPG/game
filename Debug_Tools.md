@@ -8,12 +8,13 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - See combat action count text in combat.
 - See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
 - Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
-- **New!** Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
+- Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
 
 ### There are a number of commands to test with (sometimes these break too):
-- **New!** `/refill` refills all flasks in the inventory to max charges.
-- **New!** `/freecam` toggles freecam. WASD to pan the camera, mouse wheel to zoom in and out, Shift to speed up the panning or the scrolling, and LMB to teleport the player on both client and server to the clicked position.
-- `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below to see the identifiers.
+- **New!** `/debug [identifier]` toggles a debug boolean associated with the specified identifier. See below for the identifier list.
+- `/refill` refills all flasks in the inventory to max charges.
+- `/freecam` toggles freecam. WASD to pan the camera, mouse wheel to zoom in and out, Shift to speed up the panning or the scrolling, and LMB to teleport the player on both client and server to the clicked position.
+- `/verbose [identifier]` toggles a verbose logging boolean associated with the specified identifier. See below for the identifier list.
 - `/res [resource] [amount]` sets the specified resource to the specified amount 
 - `/deplete` sets all your combat resources (except health) to 0
 - `/gold [amount]` adds gold to your inventory
@@ -41,3 +42,9 @@ Many identifiers will have client and server versions of them. In offline, the c
 - `spack` Same as `cpack` but for the server.
 - `cpackt` Client packet traffic debugging. When you want to see when the client sends and receives any packet, purely in the object form. Works for both online and offline.
 - `spackt` Same as `cpackt` but for the server.
+
+#### Debug identifiers:
+
+These are used by the above `/debug` command.
+
+- **New!** `damage_roll_max` Forces IntRange (used by the data system, an object that stores a range and rolls randomly inside of it) to roll the maximum value every time.
