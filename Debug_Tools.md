@@ -1,4 +1,4 @@
-All dev/debug access stuff is only available in offline, it won't work in online.
+All dev/debug access stuff is only available in offline, it won't work in online unless you have dev access.
 
 ### In the settings menu, you can enable Debug option to show a few technical things on the screen, such as:
 - Pathing
