@@ -6,7 +6,7 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - Force Win/Lose buttons in combat.
 - See enemy items in combat from the start.
 - See combat action count text in combat.
-- See your own 'ghost' to see where you are on the server and to other players (does not include real latency).
+- See your own 'ghost' to see where you are on the server and to other players.
 - Client-Steam communication messages on the server selection page (online mode after you choose a character) to see the state of Steam communication.
 - Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
 
