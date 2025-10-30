@@ -11,6 +11,8 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - Toggle forced encounters from walking with a checkbox next to the stomp/sneak meter.
 
 ### There are a number of commands to test with (sometimes these break too):
+- **New!** `/waypoint` or `/wp` opens the waypoint menu from anywhere.
+- **New!** `/spellscribe` or `/ss` opens the spellscribe vendor menu from anywhere.
 - `/debug [identifier]` toggles a debug boolean associated with the specified identifier. See below for the identifier list.
 - `/refill` refills all flasks in the inventory to max charges.
 - `/freecam` toggles freecam. WASD to pan the camera, mouse wheel to zoom in and out, Shift to speed up the panning or the scrolling, and LMB to teleport the player on both client and server to the clicked position.
@@ -47,5 +49,5 @@ Many identifiers will have client and server versions of them. In offline, the c
 
 These are used by the above `/debug` command.
 
-- **New!** `spell_access_all` Enables the selection of all allocated spells in combat, ignoring the spellbook.
+- `spell_access_all` Enables the selection of all allocated spells in combat, ignoring the spellbook.
 - `damage_roll_max` Forces IntRange (used by the data system, an object that stores a range and rolls randomly inside of it) to roll the maximum value every time.
