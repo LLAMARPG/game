@@ -38,6 +38,7 @@ These are used by the above `/verbose` command.
 
 Many identifiers will have client and server versions of them. In offline, the client and server versions both toggle the same boolean. You only need to use one identifier to toggle the boolean for both client and server. The client identifier is preferred, but there's no harm in using the server identifier. In online, the client identifiers are for the client specifically and the server identifiers are for the dedicated server specifically.
 
+- **New!** `zones` or `zone` Enables debug messages for entering, exiting, and encounter checks within zones.
 - `cenc` Client encoding. When you want to see a verbose detail of the client's encoding and decoding. Extremely noisy (lots of spam and text).
 - `senc` Same as `cenc` but for the server.
 - `cpack` Client packet debugging. When you want to see when the client sends and receives any packet, both in their object and encoded data. This only works in online! Has no effect in offline.
@@ -49,6 +50,5 @@ Many identifiers will have client and server versions of them. In offline, the c
 
 These are used by the above `/debug` command.
 
-- **New!** `zones` or `zone` Enables debug messages for entering, exiting, and encounter checks within zones.
 - `spell_access_all` Enables the selection of all allocated spells in combat, ignoring the spellbook.
 - `damage_roll_max` Forces IntRange (used by the data system, an object that stores a range and rolls randomly inside of it) to roll the maximum value every time.
