@@ -49,5 +49,6 @@ Many identifiers will have client and server versions of them. In offline, the c
 
 These are used by the above `/debug` command.
 
+- `zones` or `zone` Enables debug messages for entering, exiting, and encounter checks within zones.
 - `spell_access_all` Enables the selection of all allocated spells in combat, ignoring the spellbook.
 - `damage_roll_max` Forces IntRange (used by the data system, an object that stores a range and rolls randomly inside of it) to roll the maximum value every time.
