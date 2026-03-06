@@ -14,7 +14,7 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - **New!** `/interact` forces an interaction (pressing the interact button) with the specified target.
 - **New!** `/teleport` or `/tp` teleports the player to the designated significant location. [See significant location identifiers here](https://docs.google.com/spreadsheets/d/1kxMXg6sl3DrCN6KrCxsOHNGNPFgZGQDFeIrTebnGlh8/edit?pli=1&gid=1212007594#gid=1212007594).
 - **New!** `/questaction` or `/qa` forces a quest action to run for a player on both client and server. This should be used sparingly as it has no safety checks and can brick quest states if saved.
-- **New!** `/objectsetinteger` or `/osi` sets an integer value to a quest object.
+- **New!** `/objectsetinteger` or `/osi` sets an integer value to a quest object. This can be used to bruteforce quest objects into certain states, but there is no solid list anywhere for what you can change.
 - `/waypoint` or `/wp` opens the waypoint menu from anywhere.
 - `/spellscribe` or `/ss` opens the spellscribe vendor menu from anywhere.
 - `/debug [identifier]` toggles a debug boolean associated with the specified identifier. See below for the identifier list.
