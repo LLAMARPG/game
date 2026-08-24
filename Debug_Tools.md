@@ -81,4 +81,4 @@ These are used by the above `/debug` command.
 These are used by the above `/print` command.
 
 - `inv` or `inventory` prints out the player's inventory to console on both the client and server. Useful for seeing inventory desync bugs.
-- `winpos` or `windowposition` prints out the game window's current position your desktop. Useful in conjunction with the position command line option.
+- `winpos` or `windowposition` prints out the game window's current position on your desktop to both the console and in-game chat. Useful in conjunction with the `--pos` command line option.
