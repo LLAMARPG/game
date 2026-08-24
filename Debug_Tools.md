@@ -42,14 +42,14 @@ All dev/debug access stuff is only available in offline, it won't work in online
 - `/clear` clears the chat
 - `/crash` forces the server to crash, probably don't have a need to use this though..
 
-### Command line options and feature tags
-
+### Command line options:
 - `--client` loads the game application in client mode.
 - `--server` loads the game application in server mode. Requires developer access, as the application shipped through Steam does not contain the server code needed for this to function.
 - `--pos:x,y` allows you to specify the location the window is placed on the desktop as soon as the application loads.
 - `--char:char_name` allows you to specify which character to automatically select. Only works if the client is set to automatically navigate to a character selection screen.
 - `--ip:address` allows you to specify which server to automatically select. Only works if `--char` is provided and successfully completes.
 
+### Feature tags:
 - `skiponline` is a client-only feature tag forcing the game application to automatically navigate to the online menu (as if you were clicking `Online` on the title screen) as soon as it loads.
 - `dedicated-server-show-world` is a server-only feature tag that enables rendering of the world, players, and some other features in the server's game window. This feature tag is useless without a window (and may even cause errors in headless mode).
 - `authentication_steam` is a feature tag used by both client and server to indicate to use Steam authentication process. Without this, online mode is not available. The application shipped through Steam will have this logic enabled by default.
